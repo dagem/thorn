@@ -176,7 +176,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "dd47e529-7679-4ca8-9a6d-f419e734b60e")
@@ -187,7 +187,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "28632178-289c-4fac-9680-5ce8aa34cf5e")
@@ -198,7 +198,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "66997b65-ae79-4d6b-9f8b-f46b79caf50a")
@@ -209,7 +209,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "169523e0-61c1-49b3-969f-e4c4deaa9df2")
@@ -220,7 +220,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "1cc989bf-712d-4fb6-81ce-8adddcfe901b")
@@ -231,7 +231,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "3da6f717-b2b7-4b8e-8019-5377eaec1cfb")
@@ -242,7 +242,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "aa686180-b3a7-4e2c-9575-19345733dabe")
@@ -253,7 +253,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "5e3cb3bb-8a25-422a-964f-05b0e12a6335")
@@ -264,7 +264,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "86f3dc21-9e3c-4a55-b3c5-5dbdfb653b9f")
@@ -275,7 +275,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "32c92b0e-d69a-4c33-bef1-bfb5ba5e41a7")
@@ -286,7 +286,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "31852630-1f29-4818-a6ae-9d6612bd27a0")
@@ -297,7 +297,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "21536021-3938-4721-9e51-e8fcff6866f8")
@@ -308,7 +308,7 @@
 		(drill 1
 			(offset 0 1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "9dec9882-105f-48fa-985a-2a55711b151c")
@@ -319,7 +319,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "b4d842a9-27ae-4160-9d5d-a3d2c319d453")
@@ -330,7 +330,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "be581a31-b8d2-4c2d-8f52-c8a5b5e4ed78")
@@ -341,7 +341,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "b8576b34-9014-4947-8b55-96a59b427aa3")
@@ -352,7 +352,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "0ee4ed5d-ddf1-4579-bef3-fa736570db43")
@@ -363,7 +363,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "2ecacb1b-41e8-46c1-b9a7-304a2b513762")
@@ -374,7 +374,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "ef04da87-8d35-4ca9-911c-c75a6dc71319")
@@ -385,7 +385,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "0bcb2490-e6a7-47fd-a1ff-6b404becd5bd")
@@ -396,7 +396,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "c88b1da3-c36e-4713-966e-a1cd4fb495fd")
@@ -407,7 +407,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "1d1dd39a-c7fc-4e3c-b490-4349e9da99d3")
@@ -418,7 +418,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "0de3df1f-1596-44c8-9156-9945788be871")
@@ -429,7 +429,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "9306df6b-4776-42b6-8223-9ba95d3c454d")
@@ -440,7 +440,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "61b7249a-f5b5-475e-ace9-b417ea9146b0")
@@ -451,7 +451,7 @@
 		(drill 1
 			(offset 0 -1)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "e333e658-4601-4901-9397-a478b5caa892")
