@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pro_Micro")(type "KiCad")(uri "${KIPRJMOD}/resources/KB2040/Pro_Micro.kicad_sym")(options "")(descr ""))
+  (lib (name "HS91L02W2C01")(type "KiCad")(uri "${KIPRJMOD}/resources/Displays/HS91L02W2C01.pretty/HS91L02W2C01.kicad_sym")(options "")(descr ""))
+)
