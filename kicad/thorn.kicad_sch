@@ -1838,6 +1838,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 95.25) (xy 162.56 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26069bd2-f12e-45be-a457-baa495c7fa11")
+	)
+	(wire
+		(pts
 			(xy 123.19 29.21) (xy 129.54 29.21)
 		)
 		(stroke
@@ -1915,6 +1925,16 @@
 			(type default)
 		)
 		(uuid "41b0b24f-6ca1-470f-a17b-9999db89eb56")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50eb046a-f9d7-4d4f-b130-b949bf468344")
 	)
 	(wire
 		(pts
@@ -2045,6 +2065,16 @@
 			(type default)
 		)
 		(uuid "9225a65a-af49-4f3a-867f-ed4a6f78ff5e")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 162.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09f49b4-0e7e-43ca-8cb7-ee8cab0173a5")
 	)
 	(wire
 		(pts
@@ -2195,6 +2225,16 @@
 			(type default)
 		)
 		(uuid "efc555ce-e29b-4f57-8c5c-04162c183ab7")
+	)
+	(wire
+		(pts
+			(xy 157.48 97.79) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fc3e75-8ff7-4baf-a1d2-ee0388d35909")
 	)
 	(wire
 		(pts
@@ -2372,7 +2412,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 162.56 97.79 180)
+		(at 157.48 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2382,7 +2422,7 @@
 		)
 		(uuid "2bc3a943-1509-4a33-9622-c29dbbfbc5b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.7324 97.79 0)
+			(at 151.6524 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2566,7 @@
 	)
 	(global_label "EC2"
 		(shape input)
-		(at 137.16 53.34 180)
+		(at 137.16 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2536,7 +2576,7 @@
 		)
 		(uuid "67fbe8c7-2676-459a-8205-30cf577612ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5463 53.34 0)
+			(at 130.5463 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2698,7 @@
 	)
 	(global_label "RAW"
 		(shape input)
-		(at 162.56 95.25 180)
+		(at 157.48 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2668,7 +2708,7 @@
 		)
 		(uuid "87e0473d-3b9f-4bef-a531-597e192de1e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7648 95.25 0)
+			(at 150.6848 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2786,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 162.56 100.33 180)
+		(at 157.48 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2756,7 +2796,7 @@
 		)
 		(uuid "9d26c8fe-e26e-409b-ae36-a5e7e4b3484e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.7324 100.33 0)
+			(at 151.6524 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2852,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 137.16 58.42 180)
+		(at 137.16 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2822,7 +2862,7 @@
 		)
 		(uuid "cca846c7-902c-4d52-8e14-7a3e04858243")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3367 58.42 0)
+			(at 129.3367 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,16 +3889,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 102.87 0)
+		(at 157.48 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52ff58cb-b52f-4a1d-a99e-96f5a3009158")
 		(property "Reference" "#PWR05"
-			(at 162.56 109.22 0)
+			(at 157.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,15 +3906,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 107.95 0)
+			(at 155.448 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 102.87 0)
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 102.87 0)
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 102.87 0)
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
