@@ -198,6 +198,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RotaryEncoder"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder"
+				(at 0 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HS91L02W2C01:oled_display"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -909,16 +1207,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 49.53) (xy 71.12 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be2253e-af30-43c4-aec4-e4b2e04f22cf")
-	)
-	(wire
-		(pts
 			(xy 71.12 55.88) (xy 88.9 55.88)
 		)
 		(stroke
@@ -939,6 +1227,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 49.3625) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e14f7a-63da-437f-9530-b21e4385a000")
+	)
+	(wire
+		(pts
 			(xy 39.37 78.74) (xy 39.37 92.71)
 		)
 		(stroke
@@ -946,6 +1244,16 @@
 			(type default)
 		)
 		(uuid "2c0c6d3d-60cd-473f-b246-92e658a0e7b5")
+	)
+	(wire
+		(pts
+			(xy 133.35 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed16f0a-7e9b-435f-a5d3-28b387df88c1")
 	)
 	(wire
 		(pts
@@ -1319,6 +1627,30 @@
 			)
 		)
 	)
+	(global_label "EC2"
+		(shape input)
+		(at 140.97 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68deba5d-eb52-4ad5-b480-276ce25ca793")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3563 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "COL1"
 		(shape input)
 		(at 60.96 26.67 90)
@@ -1463,6 +1795,30 @@
 			)
 		)
 	)
+	(global_label "EC1"
+		(shape input)
+		(at 140.97 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b1e9ac-680e-4512-91c0-703932b9d7fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3563 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 44.45 35.56 0)
@@ -1495,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 44.45 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1575,7 +1931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 66.04 44.2825 0)
 			(hide yes)
 			(show_name no)
@@ -1759,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 44.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1839,7 +2195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 44.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2023,7 +2379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 66.04 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2103,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2183,7 +2539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 66.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2471,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 44.45 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2514,6 +2870,85 @@
 			(project "thorn"
 				(path "/08f3c77b-db3c-46f4-9250-f5ee3e1cee68/0f81ac1e-de1d-44ff-8e5e-614f84f00e15"
 					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 80.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d8693c-2baf-4ff2-beef-566d53f2b117")
+		(property "Reference" "#PWR025"
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d11ea39-e549-4fe3-803a-583783b21b1d")
+		)
+		(instances
+			(project "thorn"
+				(path "/08f3c77b-db3c-46f4-9250-f5ee3e1cee68/0f81ac1e-de1d-44ff-8e5e-614f84f00e15"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2655,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2965,6 +3400,91 @@
 			(project "thorn"
 				(path "/08f3c77b-db3c-46f4-9250-f5ee3e1cee68/0f81ac1e-de1d-44ff-8e5e-614f84f00e15"
 					(reference "Display1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder")
+		(at 148.59 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b044c4-2d55-4af8-8c2d-b9c4d8e22ff7")
+		(property "Reference" "SW1"
+			(at 154.94 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RotaryEncoder"
+			(at 154.94 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
+			(at 144.78 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 73.406 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B"
+			(uuid "77926c3c-22c2-43fb-97ee-511b5411a045")
+		)
+		(pin "C"
+			(uuid "2c52d7dd-8e15-43fd-91fb-1b3a1ef99993")
+		)
+		(pin "A"
+			(uuid "e2597e70-ebcf-4ec3-911d-bb9cf1112a70")
+		)
+		(instances
+			(project "thorn"
+				(path "/08f3c77b-db3c-46f4-9250-f5ee3e1cee68/0f81ac1e-de1d-44ff-8e5e-614f84f00e15"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3498,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 44.45 44.45 0)
 			(hide yes)
 			(show_name no)
